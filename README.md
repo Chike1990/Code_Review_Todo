@@ -1,6 +1,6 @@
 # ToDo List App
 
-Todo List is a web application that allows users to add, remove, and edit the list of "to-dos". It provides an interface for adding to do activities, for visualizing the list of added tasks to complete, for deleting and for updating todos. This is achieved using plain HTML, CSS, JavaScript objects, arrays, DOM, basic events, and webpack.
+Todo List is a web application that allows users to add, remove, and edit the list of "to-dos". It provides an interface for adding to do activities, for visualizing the list of added tasks to complete, for deleting and for updating todos. This is achieved using plain HTML, CSS, JavaScript objects, arrays, DOM, basic events, and webpack...
 
 ![Screenshot](src/Screenshot2.png)
 
