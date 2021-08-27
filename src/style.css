@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: green;
+}
+
+.todo {
+  max-width: 600px;
+  margin: 50px auto 0 auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.todo__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebe6e6;
+  align-items: center;
+  padding: 15px;
+}
+
+.todo__heading {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.todo__delete-icon {
+  cursor: pointer;
+}
+
+.todo__input-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ebe6e6;
+  font-size: 17px;
+}
+
+.todo__input {
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: inherit;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.todo__input::placeholder {
+  font-style: italic;
+}
+
+.todo__input-icon {
+  cursor: pointer;
+}
+
+.todo__placeholder {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  border-bottom: 1px solid #ebe6e6;
+}
+
+.todo__checkbox {
+  margin-right: 10px;
+  border: 1px solid #ebe6e6;
+}
+
+.todo__text {
+  border: 0;
+  outline: 0;
+  font-size: inherit;
+}
+
+.todo__drag-icon {
+  cursor: pointer;
+}
+
+.todo__clear {
+  background-color: #ece8e8;
+  padding: 22px;
+  text-align: center;
+}
+
+.todo__clear-btn {
+  font-size: 18px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.todo__clear-btn:hover {
+  text-decoration: underline;
+}
